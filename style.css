@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+}
+
+.textContent{
+    margin:20px;
+}
+.textContent h1{
+    font-size:40px;
+    
+}
+.textContent p{
+    font-size:20px;
+    color:white;;
+    margin-top:100px;
+    font-weight:bold;
+}
+figure img{
+    height:320px;
+    width:450px;
+}
+.fa{
+    font-size:60px;   
+}
+
+.fa-angle-left:hover, .fa-angle-right:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+@media only screen and (max-width:375px)
+{   
+    section{
+       display:flex;
+       flex-wrap:wrap;
+        margin:50px;
+        box-shadow:10px 10px 10px grey;
+        position:relative;
+        background-color:#a6acaf ;
+    } 
+    .textContent h1{
+        font-size:20px;
+        
+    }
+    .textContent p{
+        font-size:20px;
+        color:white;;
+        margin-top:50px;
+        font-weight:bold;
+    }
+    figure img{
+        height:150px;
+        width:274px;
+    }  
+    .fa-angle-left{
+        position:absolute;
+        bottom:250px;
+        left:10px;
+        color:red;
+        padding:10px;
+        cursor:pointer;
+        
+        }
+        .fa-angle-right{
+            position:absolute;
+            bottom:250px;
+            right:10px;
+            color:red;
+            padding:10px;
+            cursor:pointer;
+        }
+} 
+@media only screen and (min-width:1024px)
+{
+ 
+section{
+    display:flex;
+    flex-wrap: nowrap;
+    margin:100px;
+    box-shadow:10px 10px 10px grey;
+    position:relative;
+    background-color: #a6acaf ;
+}
+.fa-angle-left{
+    position:absolute;
+    bottom:350px;
+    left:40px;
+    color:red;
+    padding:10px;
+    cursor:pointer;
+    
+    }
+    .fa-angle-right{
+        position:absolute;
+        bottom:350px;
+        right:40px;
+        color:red;
+        padding:10px;
+        cursor:pointer;
+    }
+}
